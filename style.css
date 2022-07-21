@@ -40,3 +40,38 @@ p {
   color: #000;
   text-transform: uppercase;
 }
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.introducao {
+  background: #FFF;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
+}
+
+.detalhe {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #E21;
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
+
+.botao {
+  background: #E21;
+  color: #FFF;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
